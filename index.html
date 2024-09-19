@@ -98,7 +98,91 @@
 
 <button onclick="showRandomColor()">show a random color </button>
 <div id="colorDisplay"></div>
+
+
+<button onclick="randomnumber()">Generate A Random Number</button>
 <div id="demos"></div>
+
+
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+<button onclick="reset()">Reset</button>
+<div id="display"></div>
+<div id="rotator"></div>
+
+<input type="date" id="dateInput">
+    <button id="calculateBtn">Calculate Day</button>
+    <h2 id="result"></h2>
+
+    <label for="alarmTime">Set Alarm (in seconds): </label>
+    <input type="number" id="alarmTime" min="1" required>
+    <button id="setAlarmBtn">Set Alarm</button>
+    <h2 id="status"></h2>
+
+    <button onclick="alertbutton()">Get A Alert</button>
+
+
+    <div id="quote-box">
+        <p id="quote-text"></p>
+        <p id="quote-author"></p>
+    </div>
+
+    <button onclick="generateQuote()">Get New Quote</button>
+<br>
+<br>
+
+<input type="color" id="colorPicker">
+    <div id="colorDisplay" style="width: 100px; height: 100px; background-color: #ffffff; margin-top: 20px;"></div>
+
+
+
+    <input type="range" id="fontSizeRange" min="10" max="100" value="16">
+<p id="text">This is some text!</p>
+
+<input type="color" id="textColorPicker">
+<p id="colorfulText">This text will change color!</p>
+
+<input type="password" id="passwordInput" placeholder="Enter your password">
+<p id="strength">Password Strength: </p>
+
+<textarea id="textArea" placeholder="Type something..."></textarea>
+<p id="wordCount">Word Count: 0</p>
+
+
+<h2>Simple Stopwatch with Lap</h2>
+<button id="startBtn">Start</button>
+<button id="stopBtn">Stop</button>
+<button id="resetBtn">Reset</button>
+<button id="lapBtn">Lap</button>
+<p id="time">0 seconds</p>
+<ul id="laps"></ul>
+
+<input type="number" id="tempInput" placeholder="Enter temperature">
+<select id="unit">
+    <option value="C">Celsius to Fahrenheit</option>
+    <option value="F">Fahrenheit to Celsius</option>
+</select>
+<button id="convertBtn">Convert</button>
+<p id="tempResult">Converted Temperature: </p>
+
+<input type="number" id="weightInput" placeholder="Weight in kg">
+<input type="number" id="heightInput" placeholder="Height in cm">
+<button id="calculateBmiBtn">Calculate BMI</button>
+<p id="bmiResult">Your BMI: </p>
+
+<input type="number" id="birthYearInput" placeholder="Enter birth year">
+<button id="calculateAgeBtn">Calculate Age</button>
+<p id="ageResult">Your Age: </p>
+
+<p id="greetingMessage"></p>
+
+
+<textarea id="textInput" maxlength="100" placeholder="Enter text (max 100 characters)"></textarea>
+<p id="charLimit">Characters left: 100</p>
+
+<input type="file" id="imageInput">
+<img id="imagePreview" style="max-width: 100%; display: none;">
+
 <script src="script.js"></script>
 </body>
 </html>
